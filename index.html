@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f0e3">
+  <title>Happy 25th, Hema ♡</title>
+  <meta name="description"
+    content="Hema turns 25 today. I made her a tiny universe ~ warm, cute, and a little romantic.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Gochi+Hand&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="aurora">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+  <canvas id="stars"></canvas>
+  <canvas id="petals"></canvas>
+  <div class="grain"></div>
+  <div class="progress" id="progress"></div>
+
+  <div class="dots" id="dots">
+    <a href="#hero" aria-label="top"></a>
+    <a href="#poem" aria-label="poem"></a>
+    <a href="#gallery" aria-label="memories"></a>
+    <a href="#reasons" aria-label="reasons"></a>
+    <a href="#finale" aria-label="finale"></a>
+  </div>
+  <button id="toTop" aria-label="back to top">↑</button>
+
+  <nav>
+    <div class="brand">for hema's 25th <em>♡</em></div>
+  </nav>
+
+  <!-- GATE -->
+  <div id="gate">
+    <div class="envelope-card">
+      <div class="stamp">with<br>love ♥</div>
+      <button class="seal" id="sealBtn" aria-label="open">✉</button>
+      <h1>hey Hema ~<br>you're <span>25 today!</span></h1>
+      <p>twenty-five looks disgustingly good on you, by the way.<br>i built you a tiny corner of the internet. come in?
+        ✏
+      </p>
+      <button class="open-btn" id="openBtn">come on, open it →</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero">
+      <div class="wrap" style="position:relative">
+        <svg class="doodle float-a" style="top:-30px;left:-10px;width:64px" viewBox="0 0 60 60">
+          <path data-draw d="M30 50 C10 36 6 22 14 14 C20 8 30 12 30 22 C30 12 40 8 46 14 C54 22 50 36 30 50Z"
+            stroke="#e4574d" stroke-width="3.5" />
+        </svg>
+        <svg class="doodle float-b" style="top:20px;right:-6px;width:56px" viewBox="0 0 56 56">
+          <path data-draw d="M28 4 L32 22 L50 26 L32 30 L28 48 L24 30 L6 26 L24 22 Z" stroke="#e8a93d"
+            stroke-width="3.5" />
+        </svg>
+        <svg class="doodle float-b" style="bottom:120px;left:-24px;width:52px" viewBox="0 0 52 52">
+          <circle data-draw cx="26" cy="26" r="16" stroke="#4d7dd1" stroke-width="3.5" />
+          <path data-draw d="M26 10 L26 18 M26 34 L26 42 M10 26 L18 26 M34 26 L42 26" stroke="#4d7dd1"
+            stroke-width="3.5" />
+        </svg>
+        <svg class="heart-draw" viewBox="0 0 100 90">
+          <path id="heart-path"
+            d="M50 82 C20 60 4 40 4 22 C4 8 15 2 26 2 C36 2 45 8 50 18 C55 8 64 2 74 2 C85 2 96 8 96 22 C96 40 80 60 50 82 Z" />
+        </svg>
+        <div class="eyebrow">✎ &nbsp;twenty-five looks good on you&nbsp; ✎</div>
+        <h1>Happy <span class="hl">25th</span><span class="name">to Hema ~ my favourite human plot twist, <b>my
+              loveliest friend</b></span></h1>
+        <p class="lede">you did 25 years of being you ~ warm, funny, annoyingly lovable.<br>i drew you this page so
+          you'd have proof. scroll slow?</p>
+        <div class="hero-cta">
+          <a class="btn-solid" href="#poem">start from the top ↓</a>
+          <a class="btn-ghost" href="#finale">skip to the cake part ♥</a>
+        </div>
+        <div class="scroll-cue">
+          <span class="cue-note">down, down, keep going</span>
+          <svg width="46" height="52" viewBox="0 0 46 52">
+            <path data-draw d="M10 4 C 20 20, 30 30, 24 46 M24 46 L16 38 M24 46 L32 38" fill="none" stroke="#26221d"
+              stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- POEM -->
+    <section id="poem">
+      <div class="wrap glass tilt-r reveal" style="position:relative">
+        <span class="tape tl"></span><span class="tape tr pink"></span>
+        <svg class="doodle" style="bottom:-18px;right:-14px;width:84px;transform:rotate(10deg)" viewBox="0 0 90 90">
+          <circle data-draw cx="45" cy="45" r="7" stroke="#e8a93d" stroke-width="3" />
+          <path data-draw d="M45 38 C40 24, 26 24, 23 37 C26 49, 40 47, 45 38Z" stroke="#e8a93d" stroke-width="3" />
+          <path data-draw d="M52 45 C66 40, 66 26, 53 23 C41 26, 43 40, 52 45Z" stroke="#e8a93d" stroke-width="3" />
+          <path data-draw d="M45 52 C50 66, 64 66, 67 53 C64 41, 50 43, 45 52Z" stroke="#e8a93d" stroke-width="3" />
+          <path data-draw d="M38 45 C24 51, 24 65, 37 67 C49 64, 47 50, 38 45Z" stroke="#e8a93d" stroke-width="3" />
+        </svg>
+        <div class="quote-mark">“</div>
+        <div class="eyebrow">for the quarter-century girl</div>
+        <h2 class="display">twenty-five things <em>i'd tell the stars</em></h2>
+        <svg class="squiggle" viewBox="0 0 220 14">
+          <path data-draw d="M3 10 Q 30 3, 58 8 T 112 8 T 166 8 T 217 6" fill="none" stroke="#e4574d" stroke-width="4"
+            stroke-linecap="round" />
+        </svg>
+        <div class="poem-text">
+          <p class="line">twenty-five candles, and you'd still steal the strawberries off my cake. some things i hope
+            never grow up.</p>
+          <p class="line">you're the friend who texts "reached?" ~ and i've stopped pretending it doesn't mean "i love
+            you."</p>
+          <p class="line">you laugh with your whole shoulders. i've built favorite memories out of that sound.</p>
+          <p class="line">i've tried finding a word for what you are to me. "best friend" fits ~ it just keeps
+            outgrowing itself.</p>
+          <p class="line">half brave, half soft, fully Hema. somehow, exactly the person every version of me needed.</p>
+          <p class="line">you've held my bad days like they were made of glass. not one of them shattered in your hands.
+          </p>
+          <p class="line">you turned ordinary evenings into "remember when?" stories. i quietly turned them into reasons
+            i believe in luck.</p>
+          <p class="line">home was never an address. it's wherever you're telling a story with your hands.</p>
+          <p class="line">there are people you meet, and people you keep. you're the second kind ~ the kind you build a
+            life around.</p>
+          <p class="line">if growing up is glitter + grief + grace, you wear it like it was tailored for you.</p>
+          <p class="line">so here's to loud songs, late talks, soft mornings ~ and to every quiet feeling i haven't
+            found the courage to say out loud.</p>
+          <p class="line">may 25 hand you back the love you give away so freely. multiplied.</p>
+          <p class="line">happy birthday, Hema. in every version of this story, in every timeline ~ i'd find you. i'd
+            choose this.</p>
+        </div>
+        <div class="poem-progress"><span id="poemBar"></span></div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="wrap" style="position:relative">
+        <svg class="doodle float-a" style="top:60px;right:-14px;width:60px" viewBox="0 0 60 60">
+          <path data-draw d="M8 30 Q 30 6, 52 30 M52 30 L44 26 M52 30 L46 38" fill="none" stroke="#2f9e8f"
+            stroke-width="3.5" stroke-linecap="round" />
+        </svg>
+        <div class="eyebrow reveal">✎ &nbsp;ten little proofs&nbsp; ✎</div>
+        <h2 class="display reveal">you, but <em>framed softly</em></h2>
+        <svg class="squiggle reveal" viewBox="0 0 220 14">
+          <path data-draw d="M3 10 Q 30 3, 58 8 T 112 8 T 166 8 T 217 6" fill="none" stroke="#4d7dd1" stroke-width="4"
+            stroke-linecap="round" />
+        </svg>
+        <p class="lede reveal">ten moments where you looked like pure sunlight.<br>tap any photo to hold it closer ♥</p>
+        <div class="polaroid-grid">
+          <figure class="polaroid"><img src="SRC/1.png" alt="Hema at 25 - memory 1" loading="lazy" decoding="async">
+            <figcaption>sunlight looks like you</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/2.jpeg" alt="Hema at 25 - memory 2" loading="lazy" decoding="async">
+            <figcaption>that laugh i'd find anywhere</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/3.jpg" alt="Hema at 25 - memory 3" loading="lazy" decoding="async">
+            <figcaption>softest photo, toughest girl</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/4.jpeg" alt="Hema at 25 - memory 4" loading="lazy" decoding="async">
+            <figcaption>framed in my head forever</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/5.jpeg" alt="Hema at 25 - memory 5" loading="lazy" decoding="async">
+            <figcaption>bad lighting, still glowing</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/6.jpeg" alt="Hema at 25 - memory 6" loading="lazy" decoding="async">
+            <figcaption>caught mid-laugh, my favourite</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/7.jpeg" alt="Hema at 25 - memory 7" loading="lazy" decoding="async">
+            <figcaption>this day lives rent-free in me</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/8.jpeg" alt="Hema at 25 - memory 8" loading="lazy" decoding="async">
+            <figcaption>25 and unfairly pretty</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/9.png" alt="Hema at 25 - memory 9" loading="lazy" decoding="async">
+            <figcaption>proof good souls exist</figcaption>
+          </figure>
+          <figure class="polaroid"><img src="SRC/10.png" alt="Hema at 25 - memory 10" loading="lazy" decoding="async">
+            <figcaption>can we stay here a little longer?</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- REASONS -->
+    <section id="reasons">
+      <div class="wrap">
+        <div class="eyebrow reveal">five reasons, but honestly fifty</div>
+        <h2 class="display reveal">why the world <em>is softer with you</em></h2>
+        <svg class="squiggle reveal" viewBox="0 0 220 14">
+          <path data-draw d="M3 10 Q 30 3, 58 8 T 112 8 T 166 8 T 217 6" fill="none" stroke="#2f9e8f" stroke-width="4"
+            stroke-linecap="round" />
+        </svg>
+        <div class="reasons-grid">
+          <div class="reason">
+            <div class="num">1</div>
+            <p>you check in like it's breathing ~ "ate? slept? reached home?"<small>~ you always know when i'm lying,
+                and you stay anyway</small></p>
+          </div>
+          <div class="reason">
+            <div class="num">2</div>
+            <p>you turn bad days into a meme, a maggi break, and a plan<small>~ in that exact order, every single
+                time</small></p>
+          </div>
+          <div class="reason">
+            <div class="num">3</div>
+            <p>you're 25 and still get excited about fairy lights, first rain, extra fries<small>~ please never outgrow
+                that sparkle</small></p>
+          </div>
+          <div class="reason">
+            <div class="num">4</div>
+            <p>you love loudly and forgive quietly<small>~ watching you taught me how to be a softer person</small></p>
+          </div>
+          <div class="reason">
+            <div class="num">5</div>
+            <p>and out of every possible timeline, i'm glad this one has you as my friend<small>~ my cute, brave,
+                ridiculously lovable Hema</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FINALE : chalkboard -->
+    <section id="finale">
+      <div class="wrap" style="position:relative">
+        <svg class="doodle float-a" style="top:40px;left:-8px;width:62px" viewBox="0 0 60 60">
+          <path data-draw d="M30 50 C10 36 6 22 14 14 C20 8 30 12 30 22 C30 12 40 8 46 14 C54 22 50 36 30 50Z"
+            stroke="rgba(253,251,244,.85)" stroke-width="3" />
+        </svg>
+        <svg class="doodle float-b" style="top:90px;right:-4px;width:58px" viewBox="0 0 56 56">
+          <path data-draw d="M28 4 L32 22 L50 26 L32 30 L28 48 L24 30 L6 26 L24 22 Z" stroke="rgba(253,251,244,.85)"
+            stroke-width="3" />
+        </svg>
+        <div class="eyebrow reveal">★ &nbsp;twenty-five wishes, one cake&nbsp; ★</div>
+        <h2 class="display reveal">Happy 25th,<br><em>my Hema.</em></h2>
+        <svg class="squiggle reveal" viewBox="0 0 220 14">
+          <path data-draw d="M3 10 Q 30 3, 58 8 T 112 8 T 166 8 T 217 6" fill="none" stroke="#f2a0b5" stroke-width="4"
+            stroke-linecap="round" />
+        </svg>
+        <p class="lede reveal">couldn't fit 25 candles on this tiny cake so you get three.<br>close enough. tap each
+          one,
+          close your eyes, wish big.</p>
+        <div class="cake reveal">
+          <div class="flames">
+            <button class="flame-btn" aria-label="blow flame 1">
+              <div class="flame"></div>
+            </button>
+            <button class="flame-btn" aria-label="blow flame 2">
+              <div class="flame"></div>
+            </button>
+            <button class="flame-btn" aria-label="blow flame 3">
+              <div class="flame"></div>
+            </button>
+          </div>
+          <div class="wicks"><i></i><i></i><i></i></div>
+          <div class="cake-body">
+            <div class="script">happy 25th hema</div>
+          </div>
+        </div>
+        <div id="flame-count">3 flames still burning</div>
+        <div id="wish-msg">sealed. 25 is going to love you back, i can feel it. ♡</div>
+        <div class="hero-cta reveal">
+          <button class="btn-solid" id="replayBtn">shower confetti again 🎉</button>
+          <button class="btn-ghost" id="topBtn">relive it all ↑</button>
+        </div>
+        <p class="sign">~ with love, your favourite idiot ♥</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="board-footer">for Hema's 25th ~ handmade with love, late nights & far too many drafts · 2026</footer>
+
+  <div id="lightbox">
+    <div style="text-align:center"><img id="lightboxImg" src="" alt="enlarged memory">
+      <p id="lightboxCap"></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <audio id="bgMusic" src="SRC/Blue-Yung-Kai.mp3" preload="auto" loop></audio>
+  <script src="main.js"></script>
+</body>
+
+</html>
